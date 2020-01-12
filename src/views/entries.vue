@@ -1,5 +1,6 @@
 <template>
   <div>
+      
     <div>
       <div class="batch1">
         <h6>Entries - Batch 2</h6>
@@ -55,7 +56,10 @@
 .different-row {
     background: #FFFFFF;
     box-shadow: 8px 18px 20px rgba(79, 79, 79, 0.3);
-    border-radius: 30px;
+    border-radius: 10px;
+     font-weight: bold;
+    color: #2b3c4e;
+     border-left: 10px solid #31d283;
 }
 .table-head {
     background: #2B3C4E;

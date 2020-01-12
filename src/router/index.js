@@ -22,6 +22,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "applicantSidebar" */ '../components/applicantSidebar.vue')
   },
   {
+    path: '/Entry',
+    name:'Entry ',
+    component: () => import(/* webpackChunkName: "Entry" */ '../components/Entry.vue')
+  },
+  {
     path: '/applicantDashboard',
     name:'applicantDashboard ',
     component: () => import(/* webpackChunkName: "applicantDashboard" */ '../views/applicantDashboard.vue')
