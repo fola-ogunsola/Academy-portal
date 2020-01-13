@@ -27,6 +27,21 @@ const routes = [
     component: () => import(/* webpackChunkName: "Entry" */ '../components/Entry.vue')
   },
   {
+    path: '/Entry2',
+    name:'Entry2 ',
+    component: () => import(/* webpackChunkName: "Entry2" */ '../components/Entry2.vue')
+  },
+  {
+    path: '/History',
+    name:'History ',
+    component: () => import(/* webpackChunkName: "History" */ '../components/History.vue')
+  },
+  {
+    path: '/historyPage',
+    name:'historyPage ',
+    component: () => import(/* webpackChunkName: "historyPage" */ '../views/historyPage.vue')
+  },
+  {
     path: '/applicantDashboard',
     name:'applicantDashboard ',
     component: () => import(/* webpackChunkName: "applicantDashboard" */ '../views/applicantDashboard.vue')
@@ -35,6 +50,11 @@ const routes = [
     path: '/entries',
     name:'entries ',
     component: () => import(/* webpackChunkName: "entries" */ '../views/entries.vue')
+  },
+  {
+    path: '/Result',
+    name:'Result ',
+    component: () => import(/* webpackChunkName: "Result" */ '../views/Result.vue')
   },
   {
     path: '/Create',

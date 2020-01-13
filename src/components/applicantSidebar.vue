@@ -10,7 +10,7 @@
 
     <div class="sidebar-icon">
       <div class="active">
-        <button><img src="../assets/dashboard.png" class="icon" />Dashboard</button>
+        <p><img src="../assets/dashboard.png" class="icon" />Dashboard</p>
       </div>
       <div>
         <p><img src="../assets/assessment.png" class="icon" />Assessment</p>
@@ -25,15 +25,7 @@
 </template>
 
 <style scoped>
-.sidebar {
-  width: 292px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
-  background: #ffffff;
-  min-height: 100%;
-  left: 0px;
-  top: 0px;
-  position: fixed;
-}
+
 .applicant-image {
   width: 100%;
   height: 255px;
@@ -69,15 +61,17 @@
   letter-spacing: -0.02em;
   color: #fff;
 }
+.sidebar {
+  width: 292px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+  background: #ffffff;
+  min-height: 100%;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+}
 .sidebar-icon {
   padding-top: 50px;
-}
-.sidebar-icon > div {
-  height: 50px;
-  width: 100%;
-}
-.icon {
-  margin-right: 25px;
 }
 .sidebar-icon > div > p {
   display: flex;
@@ -90,6 +84,14 @@
   padding: 18px 35px 12px 35px;
   text-align: left;
 }
+.sidebar-icon > div {
+  height: 50px;
+  width: 100%;
+}
+.icon {
+  margin-right: 25px;
+}
+
 .sidebar-icon > div.active > p {
   font-weight: bold;
   color: #2b3c4e;

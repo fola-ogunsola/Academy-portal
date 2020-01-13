@@ -1,6 +1,5 @@
 <template>
   <div>
-      
     <div>
       <div class="batch1">
         <h6>Entries - Batch 2</h6>
@@ -10,60 +9,59 @@
     </div>
     <div>
       <table class="table">
-  <thead class="table-head">
-    <tr>
-      <th scope="col">Name</th>
-      <th scope="col">Email</th>
-      <th scope="col">DOB - Age</th>
-      <th scope="col">Adress</th>
-      <th scope="col">University</th>
-      <th scope="col">CGPA</th>
-      
-    </tr>
-  </thead>
-  <tbody class='table borderless' >
-    <tr class="different-row">
-      <td>Ify Chinke</td>
-      <td>ify@enyata.com</td>
-      <td>12/09/19 - 22</td>
-      <td>3 Sabo Ave, Yaba, Lagos</td>
-      <td>University of Nigeria</td>
-      <td>5.0</td>
-    </tr>
-    <tr>
-       <td>Ify Chinke</td>
-      <td>ify@enyata.com</td>
-      <td>12/09/19 - 22</td>
-      <td>3 Sabo Ave, Yaba, Lagos</td>
-      <td>University of Nigeria</td>
-      <td>5.0</td>
-    </tr>
-    <tr>
-      <td>Ify Chinke</td>
-      <td>ify@enyata.com</td>
-      <td>12/09/19 - 22</td>
-      <td>3 Sabo Ave, Yaba, Lagos</td>
-      <td>University of Nigeria</td>
-      <td>5.0</td>
-    </tr>
-  </tbody>
-</table>
+        <thead class="table-head">
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">DOB - Age</th>
+            <th scope="col">Adress</th>
+            <th scope="col">University</th>
+            <th scope="col">CGPA</th>
+          </tr>
+        </thead>
+        <tbody class="table borderless">
+          <tr class="different-row">
+            <td>Ify Chinke</td>
+            <td>ify@enyata.com</td>
+            <td>12/09/19 - 22</td>
+            <td>3 Sabo Ave, Yaba, Lagos</td>
+            <td>University of Nigeria</td>
+            <td>5.0</td>
+          </tr>
+          <tr>
+            <td>Ify Chinke</td>
+            <td>ify@enyata.com</td>
+            <td>12/09/19 - 22</td>
+            <td>3 Sabo Ave, Yaba, Lagos</td>
+            <td>University of Nigeria</td>
+            <td>5.0</td>
+          </tr>
+          <tr>
+            <td>Ify Chinke</td>
+            <td>ify@enyata.com</td>
+            <td>12/09/19 - 22</td>
+            <td>3 Sabo Ave, Yaba, Lagos</td>
+            <td>University of Nigeria</td>
+            <td>5.0</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   </div>
 </template>
 
 <style scoped>
 .different-row {
-    background: #FFFFFF;
-    box-shadow: 8px 18px 20px rgba(79, 79, 79, 0.3);
-    border-radius: 10px;
-     font-weight: bold;
-    color: #2b3c4e;
-     border-left: 10px solid #31d283;
+  background: #ffffff;
+  box-shadow: 8px 18px 20px rgba(79, 79, 79, 0.3);
+  border-radius: 10px;
+  font-weight: bold;
+  color: #2b3c4e;
+  border-left: 10px solid #31d283;
 }
 .table-head {
-    background: #2B3C4E;
-    color: white;
+  background: #2b3c4e;
+  color: white;
 }
 .borderless td,
 .borderless th {

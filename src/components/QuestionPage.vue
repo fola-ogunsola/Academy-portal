@@ -29,12 +29,12 @@
       </div>
       <div>
         <ul class="list">
-          <li>A. To reduce the file size of images and videos.</li>
-          <li>B. To speed up 3D rendering performance.</li>
-          <li class="correct-answer">
+          <li><input type="radio" style="margin-right: 30px">A. To reduce the file size of images and videos</li>
+          <li><input type="radio" style="margin-right: 30px">B. To speed up 3D rendering performance.</li>
+          <li class="correct-answer"><input type="radio" style="margin-right: 30px">
             C. To support higher video resolutions.
           </li>
-          <li>D. To display more colors in images and videos</li>
+          <li><input type="radio" style="margin-right: 30px">D. To display more colors in images and videos</li>
         </ul>
       </div>
     </div>
@@ -48,6 +48,11 @@
   </div>
 </template>
 <style scoped>
+input[type=radio] {
+    width: 10px;
+    height: 10px;
+    margin-left:0;
+}
 .right {
   margin-bottom: 150px;
   margin-left: 150px;
@@ -121,7 +126,7 @@ span {
   text-align: center;
 }
 .list {
-  list-style-image: url("../assets/Rectangle.png");
+  /* list-style-image: url("../assets/Rectangle.png"); */
   display: block;
   line-height: 3.333em;
   padding: 0 10px 0 20px;
@@ -132,6 +137,7 @@ span {
   font-weight: 500;
   font-size: 16px;
   color: #2b3c4e;
+  list-style-type: none;
 }
 h6 {
   font-family: Lato;
@@ -142,10 +148,10 @@ h6 {
   color: #2b3c4e;
 }
 
-.correct-answer {
-  list-style-image: url("../assets/square.png");
+.correct-answer:hover {
+  /* list-style-image: url("../assets/square.png"); */
   background: #31d283;
-  width: 400px;
+  width: 350px;
 }
 h2 {
   font-family: Lato;
@@ -193,4 +199,5 @@ h2 {
   color: #2b3c4e;
   margin-right: 300px;
 }
+
 </style>
