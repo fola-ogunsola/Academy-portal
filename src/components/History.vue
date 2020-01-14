@@ -5,47 +5,49 @@
         <h6>Assessment History</h6>
       </div>
     </div>
-    <div>
-      <table class="table">
-        <thead class="table-head">
-          <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Email</th>
-            <th scope="col">DOB - Age</th>
-            <th scope="col">Adress</th>
-            <th scope="col">University</th>
-            <th scope="col">CGPA</th>
-          </tr>
-        </thead>
-        <tbody class="table borderless">
-          <tr class="different-row">
-            <td>Ify Chinke</td>
-            <td>ify@enyata.com</td>
-            <td>12/09/19 - 22</td>
-            <td>3 Sabo Ave, Yaba, Lagos</td>
-            <td>University of Nigeria</td>
-            <td>5.0</td>
-          </tr>
-          <tr>
-            <td>Ify Chinke</td>
-            <td>ify@enyata.com</td>
-            <td>12/09/19 - 22</td>
-            <td>3 Sabo Ave, Yaba, Lagos</td>
-            <td>University of Nigeria</td>
-            <td>5.0</td>
-          </tr>
-          <tr>
-            <td>Ify Chinke</td>
-            <td>ify@enyata.com</td>
-            <td>12/09/19 - 22</td>
-            <td>3 Sabo Ave, Yaba, Lagos</td>
-            <td>University of Nigeria</td>
-            <td>5.0</td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="table">
+      <div>
+        <table>
+          <thead class="table-head">
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Email</th>
+              <th scope="col">DOB - Age</th>
+              <th scope="col">Adress</th>
+              <th scope="col">University</th>
+              <th scope="col">CGPA</th>
+            </tr>
+          </thead>
+          <tbody class="table borderless">
+            <tr class="different-row">
+              <td>Ify Chinke</td>
+              <td>ify@enyata.com</td>
+              <td>12/09/19 - 22</td>
+              <td>3 Sabo Ave, Yaba, Lagos</td>
+              <td>University of Nigeria</td>
+              <td>5.0</td>
+            </tr>
+            <tr>
+              <td>Ify Chinke</td>
+              <td>ify@enyata.com</td>
+              <td>12/09/19 - 22</td>
+              <td>3 Sabo Ave, Yaba, Lagos</td>
+              <td>University of Nigeria</td>
+              <td>5.0</td>
+            </tr>
+            <tr>
+              <td>Ify Chinke</td>
+              <td>ify@enyata.com</td>
+              <td>12/09/19 - 22</td>
+              <td>3 Sabo Ave, Yaba, Lagos</td>
+              <td>University of Nigeria</td>
+              <td>5.0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-     <div class="container">
+    <div class="container">
       <div class="container-side">
         <p>15/30</p>
         <!-- <p class="dot-text">+ Choose File</p> -->
@@ -117,9 +119,13 @@
   color: white;
 }
 .table {
-    background: #FFFFFF;
-    box-shadow: 8px 18px 20px rgba(79, 79, 79, 0.3);
-    border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 8px 18px 20px rgba(79, 79, 79, 0.3);
+  border-radius: 8px;
+  padding: 40px;
+}
+table {
+  width: 100%;
 }
 .borderless td,
 .borderless th {
@@ -131,8 +137,8 @@
 img {
   width: 12px;
   height: 12px;
-  margin-left: 30px;
-  margin-top: 20px;
+  margin-left: 100px;
+  margin-bottom: 20px;
 }
 h6 {
   font-family: Lato;
@@ -152,14 +158,14 @@ p {
 }
 
 .edit-button {
-    background: #FF9900;
-    border-radius: 4px;
-    width: 125px;
-    height: 41px;
-    color: white;
-    margin-top: 160px;
-    margin-left: 25px;
-    border:none;
+  background: #ff9900;
+  border-radius: 4px;
+  width: 125px;
+  height: 41px;
+  color: white;
+  margin-top: 160px;
+  margin-left: 25px;
+  border: none;
 }
 
 body {
@@ -188,12 +194,12 @@ span {
 .last-button {
   margin-left: 300px;
   margin-top: 60px;
-  background: #2B3C4E;
+  background: #2b3c4e;
   border-radius: 4px;
   width: 379px;
   height: 51px;
   color: white;
-   border: none;
+  border: none;
 }
 .second-button {
   background: #2b3c4e;
@@ -201,7 +207,7 @@ span {
   color: white;
   width: 125px;
   height: 41px;
-   border: none;
+  border: none;
 }
 .first-button {
   background: #2b3c4e;

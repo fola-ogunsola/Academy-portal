@@ -31,7 +31,7 @@
         <ul class="list">
           <li><input type="radio" style="margin-right: 30px">A. To reduce the file size of images and videos</li>
           <li><input type="radio" style="margin-right: 30px">B. To speed up 3D rendering performance.</li>
-          <li class="correct-answer"><input type="radio" style="margin-right: 30px">
+          <li class="radiostyle"><input type="radio" style="margin-right: 30px">
             C. To support higher video resolutions.
           </li>
           <li><input type="radio" style="margin-right: 30px">D. To display more colors in images and videos</li>
@@ -48,11 +48,11 @@
   </div>
 </template>
 <style scoped>
-input[type=radio] {
+/* input[type=radio] {
     width: 10px;
     height: 10px;
     margin-left:0;
-}
+} */
 .right {
   margin-bottom: 150px;
   margin-left: 150px;
@@ -148,7 +148,7 @@ h6 {
   color: #2b3c4e;
 }
 
-.correct-answer:hover {
+.radiostyle {
   /* list-style-image: url("../assets/square.png"); */
   background: #31d283;
   width: 350px;
@@ -161,7 +161,10 @@ h2 {
   line-height: 29px;
   color: #2b3c4e;
 }
-
+input[type=radio]:checked+li {
+/* Or `#a1:checked+label` if you only want it for that input */
+    background-color: red;
+}
 .container > p {
   font-family: Lato;
   font-style: italic;
