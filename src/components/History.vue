@@ -18,7 +18,7 @@
               <th scope="col">CGPA</th>
             </tr>
           </thead>
-          <tbody class="table borderless">
+          <tbody class="borderless">
             <tr class="different-row">
               <td>Ify Chinke</td>
               <td>ify@enyata.com</td>
@@ -27,7 +27,7 @@
               <td>University of Nigeria</td>
               <td>5.0</td>
             </tr>
-            <tr>
+            <tr class="different-row">
               <td>Ify Chinke</td>
               <td>ify@enyata.com</td>
               <td>12/09/19 - 22</td>
@@ -35,7 +35,7 @@
               <td>University of Nigeria</td>
               <td>5.0</td>
             </tr>
-            <tr>
+            <tr class="different-row">
               <td>Ify Chinke</td>
               <td>ify@enyata.com</td>
               <td>12/09/19 - 22</td>
@@ -106,7 +106,7 @@
 </template>
 
 <style scoped>
-.different-row {
+.different-row:hover {
   background: #ffffff;
   box-shadow: 8px 18px 20px rgba(79, 79, 79, 0.3);
   border-radius: 10px;
@@ -120,7 +120,7 @@
 }
 .table {
   background: #ffffff;
-  box-shadow: 8px 18px 20px rgba(79, 79, 79, 0.3);
+  box-shadow: 4px 6px 12px rgba(79, 79, 79, 0.3);
   border-radius: 8px;
   padding: 40px;
 }
